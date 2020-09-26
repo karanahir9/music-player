@@ -21,22 +21,22 @@ const songs = [
     {
         name: 'genxkavi-2',
         displayName: 'Cockroach',
-        artist: 'GenXKavi'
+        artist: 'GenXKavi | Rsquare | J-Sha'
     },
     {
         name: 'genxkavi-3',
         displayName: 'GenXKavi',
-        artist: 'GenXKavi'
+        artist: 'GenXKavi | Rsquare | J-Sha'
     },
     {
         name: 'genxkavi-4',
         displayName: 'Self Doubt',
-        artist: 'GenXKavi_Rsqaure_KingEF'
+        artist: 'GenXKavi | Rsquare'
     },
     {
         name: 'genxkavi-5',
         displayName: 'Tabaah',
-        artist: 'GenXKavi_Rsquare_Shailendra'
+        artist: 'GenXKavi | Rsquare | J-Sha'
     }
 ]
 
@@ -67,7 +67,7 @@ function loadSong(song) {
     title.textContent = song.displayName;
     artist.textContent = song.artist;
     music.src = `music/${song.name}.mp3`;
-    image.src = `img/${song.name}.jpg`;
+    image.src = `img/${song.name}.png`;
 }
 
 //Current Song
